@@ -1,0 +1,30 @@
+{
+  "dataset": {
+    "name": "spiral",
+    "n_per_class": 400,
+    "n_classes": 2,
+    "noise": 0.20,
+    "val_frac": 0.15,
+    "test_frac": 0.15
+  },
+  "model": {
+    "in_features": 2,
+    "hidden": 64,
+    "out_features": 2,
+    "init": "xavier"
+  },
+  "training": {
+    "epochs": 150,
+    "batch_size": 32,
+    "lr": 1e-3,
+    "seed": 0
+  },
+  "pruning": {
+    "importance": "magnitude",
+    "final_sparsity": 0.90,
+    "start_epoch": 15,
+    "end_epoch": 90,
+    "interval": 5,
+    "calib_batches": 4
+  }
+}

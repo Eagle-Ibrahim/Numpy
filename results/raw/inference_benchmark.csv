@@ -1,0 +1,2 @@
+target_sparsity,achieved_sparsity,batch_size,warmup,runs,dense_macs_per_sample,sparse_macs_per_sample,dense_median_s,sparse_median_s,dense_p95_s,sparse_p95_s,speedup_median,mac_reduction,python,numpy,platform
+0.95,0.9499080882352942,256,20,200,4352,218,0.0005983089795336127,0.00098686502315104,0.0007052206681692041,0.0009983676136471331,0.6062723528524947,19.96330275229358,3.10.12,2.2.6,Linux-6.8.0-1063-azure-x86_64-with-glibc2.35

@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+
+# Keep results/ structure but ignore nothing by default so measured
+# artifacts (CSVs, plots) can be committed alongside the claims that cite them.
+
+.git_backup/

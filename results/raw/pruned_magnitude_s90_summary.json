@@ -1,0 +1,25 @@
+{
+  "config": {
+    "target_sparsity": 0.9,
+    "importance": "magnitude",
+    "epochs": 200,
+    "batch_size": 32,
+    "lr": 0.01,
+    "seed": 0,
+    "hidden": 64,
+    "start_epoch": 20,
+    "end_epoch": 120,
+    "interval": 5,
+    "calib_batches": 4,
+    "out_dir": "results"
+  },
+  "target_sparsity": 0.9,
+  "achieved_sparsity": 0.9000459558823529,
+  "active_weights": 435,
+  "eligible_weights": 4352,
+  "test": {
+    "loss": 0.005123856839048213,
+    "accuracy": 1.0
+  },
+  "final_val_acc": 1.0
+}
