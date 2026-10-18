@@ -133,7 +133,7 @@ python3 -m pip install -e ".[test]"
 ## 20. Four main execution commands
 
 ```bash
-python33 -m train.train_baseline                               # dense baseline
+python3 -m train.train_baseline                               # dense baseline
 python3 -m train.train_pruned --target-sparsity 0.90          # self-pruning
 python3 -m experiments.pareto_sweep                           # sparsity/accuracy sweep
 python3 -m experiments.benchmark                              # honest inference cost
